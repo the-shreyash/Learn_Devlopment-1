@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 2px black solid;
+        }
+        #content{
+            
+            
+            border: 2px black solid;
+            border-radius: 5px;
+            
+
+        }
+
+        #output{
+            margin-top: 5px;
+        }
+        #buttons{
+            
+           
+           
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="calc">
+        <div id ="content">
+            <form>
+                <div id="output" >
+                    <input type="text" id="display" readonly>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="buttons" >
+                    
+                        <input type="button" value="7" onclick="seven()" id="seven" style="margin:5px;">
+                        <input type="button" value="8" onclick="eight()" id="eight" style="margin: 5px;">
+                        <input type="button" value="9" onclick="nine()" id="nine" style="margin: 5px;">
+                        <input type="button" value="/" onclick="divide()" id="divide">
+                        
+                        <br>
+                        <br>
+                        <input type="button" value="4" onclick="four()" id="four" style="margin: 5px;">
+                        <input type="button" value="5" onclick="five()" id="five" style="margin: 5px;">
+                        <input type="button" value="6" onclick="six()" id="six" style="margin: 5px;">
+                        <input type="button" value="-" onclick="subtract()" id="subtract" style="margin: 5px;">
+                        <br>
+                        <br>
+                        
+                        
+                        
+                        <input type="button" value="1" onclick="one()" id="one" style="margin: 5px;">
+                        <input type="button" value="2" onclick="two()" id="two" style="margin: 5px;">
+                        <input type="button" value="3" onclick="three()" id="three" style="margin: 5px;">
+                        <input type="button" value="+" onclick="add()" id="add" style="margin: 5px;"">
+                        <br>
+                        <br>
+                    
+                        
+                        <input type="button" value="." onclick="decimal()" id="decimal" style="margin: 5px;">
+                        <input type="button" value="0" onclick="zero()" id="zero" style="margin: 5px;"">
+                        
+                        <input type="button" value="=" onclick="equals()" id="equals" style="margin: 5px;">
+                        <input type="button" value="C" onclick="clears()" id="clears" style="margin: 5px;">
+
+                    
+                    </div>
+                     
+
+            
+                    
+
+
+                
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
