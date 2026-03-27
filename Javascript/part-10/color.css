@@ -1,0 +1,22 @@
+body{
+    align-items: center;
+    text-align: center;
+    
+}
+div{
+    height: 100px;
+    width: 500px;
+    border: 2px black solid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 2px black;
+    background-color: pink;
+    margin-top: 10px;
+}

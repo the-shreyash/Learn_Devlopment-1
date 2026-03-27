@@ -1,0 +1,44 @@
+ /* Add custom CSS for peaceful and professional design */
+ body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+.container-fluid {
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+
+    transition: ease-in-out 1s;
+}
+.btn-animated {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-animated:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+.btn btn-outline-success{
+    transition: ease-in-out;
+}
+
+btn btn-outline-success:hover{
+    transition:calc() 1s ;
+}

@@ -1,0 +1,274 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+    overflow: hidden;  
+    background-color: black;
+    color: white;
+
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+   padding: 0.5rem; 
+   position: relative;
+   overflow: visible;
+  
+  
+    
+}
+
+.sidebar{
+    background-color:black;
+    width: 340px;
+    border-radius: 1rem;  /*16px*/
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem; 
+    
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player {
+    background-color:black    ;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    
+    left: 0;
+    right: 0;
+    overflow: visible;
+    
+    
+
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+    padding-top: 0.25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+
+}
+
+.nav-option{
+    padding: 0.5rem 0.75rem;
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem;
+    align-items: center;
+    background-color: #121212;
+    
+}
+
+.nav-option:hover{
+    padding: 0.5rem 0.75rem;
+    line-height: 2.5rem;
+    opacity: 1;
+    
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    background-color: #121212;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.library{
+    background-color:#121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.option{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+}
+.lib-box{
+    background-color: #121212;
+}
+
+.lib-option img{
+    width: 1.25rem;
+    height: 1.25;
+}
+
+.icon{
+    font-size: 1.25rem;
+    display: flex;
+    background-color: #121212;
+}
+
+.icon i{
+    opacity: 0.7;
+    margin-right: 1rem;
+    background-color: #121212;
+}
+
+.icon i:hover{
+    opacity: 1  ;
+}
+
+
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #232323;
+}
+
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.75;
+    background-color: #232323;
+}
+
+.badge{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    transition: transform 0.5s;
+}
+
+.badge:hover{
+    transform: scale(1.2);
+}
+
+.dark-badge{
+    background-color:#121212;
+    color: white;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem o 1rem 0 ;
+    z-index: 10;
+}
+.stick-nav-icon{
+    margin-left: 0.5rem;
+
+}
+
+
+ 
+.sticky-nav-option{
+    display: flex;
+    justify-content: cneter;
+    align-items: center;
+    transition: transform 1s;
+
+}
+.sticky-nav-option:hover{
+    transform: scale(1.1);  
+}
+
+.sticky-nav-option button{
+     margin-right: 1.5 rem ;
+
+}
+
+@media (max-width:1000px) {
+    .hide{
+        display: none;
+    }
+}
+
+
+.card{
+    background-color:#232323;
+    width: 150px;
+    border-radius: 0.5rem;
+
+    padding: 1rem;
+    margin-left: 1.5rem ;
+    margin-top: 1rem;
+}
+
+
+
+.cards-container{
+    display: flex;
+    background-color:#121212;
+    flex-wrap: wrap;
+}
+h2{
+    background-color: #121212;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.card-title{
+    font-weight:  600;
+    background-color: #232323;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+    background-color:#232323;
+
+}
+
+ .footer{
+    height: 300px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }  
+
+ .line{
+    width: 90%;
+     height: 40%;
+     border-top: 1px solid white;
+     opacity: 0.4; 
+    background-color: #121212;
+ } 

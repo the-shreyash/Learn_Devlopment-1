@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+
+}
+#main{
+    color: blue;
+}
+h1,h3,h5{
+    font-family: Georgia;
+}
+.par{
+    color: white;
+    background-color: cornflowerblue;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+}
+div>button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+label{
+    color: darkgreen;
+}

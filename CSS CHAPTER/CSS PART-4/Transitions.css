@@ -1,0 +1,43 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 1s;
+    transition-delay: 0.25s;
+    /* transition: 1s 2s; */
+}
+
+div:hover{
+    background-color: green;
+    border-radius: 50%;
+}
+
+button{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    
+
+}
+button:hover{
+    background-color: rgb(0, 255, 30);
+    border-radius: 2px;
+
+
+}
+#new{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 20px;
+    transition: margin-top 1s ease-in-out ;
+
+}
+#new:hover{
+    margin-top: 400px;
+    background-color: aqua;
+    border-radius: 10%;
+
+
+}

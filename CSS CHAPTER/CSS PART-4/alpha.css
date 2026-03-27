@@ -1,0 +1,11 @@
+#color{
+    height: 100px;
+    width: 200px;
+    background-color:  rgba(34, 34, 180, 0.626);
+}
+#opacity{
+    width: 100px;
+    height: 200px;
+    background-color: #cdfb29;
+    opacity: 0.5;
+}

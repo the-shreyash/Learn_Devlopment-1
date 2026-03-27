@@ -1,0 +1,67 @@
+#box{
+    height: 300px;
+    width: 200px;
+    background-color: cornflowerblue;
+
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    animation-delay: 0;
+    animation-direction: alternate; */
+
+    /* animation-name: coloranimate ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-direction: alternate; */
+
+    /* animation-name: widthAnimate;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    
+
+    animation: widthAnimate 3s ease-in 0s infinite normal;
+    overflow: auto;
+    
+}
+
+@keyframes fontAnimation {
+
+
+    from { 
+        font-size: 20px;
+        
+    }
+    to { 
+        font-size: 40px;
+    }
+
+}
+@keyframes coloranimate {
+    from{
+        background-color: darkgreen;    
+
+    }
+    to{background-color: aqua;}
+}
+
+@keyframes widthAnimate {
+    from{
+        width: 50px;
+        background-color: darkcyan;
+        
+    }
+    to{
+        width: 200px;
+        background-color: lightcoral;
+        border-radius: 15px;
+        text-align: center;
+        
+
+    }
+}

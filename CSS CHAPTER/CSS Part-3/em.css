@@ -1,0 +1,25 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* 2 em ka matlb hai apne parent element ke size ka 
+    just double ho jana aur agar ham 3 em karte tho bhi 
+    vo 3 time jayda bada ho jata  aisa ham half bhi kar sakte hai 0.5em ka use kar ke 
+     */
+    font-size: 2em;
+}
+button{
+    font-size: 50px;
+    border-radius: 15px ;
+    border: 20px solid yellow;
+
+}

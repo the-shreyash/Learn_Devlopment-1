@@ -1,0 +1,18 @@
+
+        h1{
+            color: brown;
+            background-color: rgb(33, 33, 204);
+        }
+        h2{
+                color: rgb(170, 47, 47);
+        }
+        p{
+            color: aqua;
+            background-color: rgb(0, 0, 0);
+        }
+
+        button{
+            color: chartreuse;
+            background-color: black;
+        }
+   

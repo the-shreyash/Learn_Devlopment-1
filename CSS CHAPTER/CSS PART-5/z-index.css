@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+    
+}
+
+.one {
+ background-color: blue;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ border: 2px solid black;
+ z-index: 1;
+}
+
+.two{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid sandybrown;
+    z-index: 0;
+}
+.three{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border: 2px solid purple;
+}
